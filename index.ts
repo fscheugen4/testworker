@@ -7,11 +7,11 @@ export default {
 
     // Picture of a dog
     const exampleInputImage = await fetch(
-      "https://pub-1fb693cb11cc46b2b2f656f51e015a2c.r2.dev/dog.png"
+      "https://einsundnull.de/assets/Uploads/E+N-Referenzen/Joules_thumb_up_circle.png"
     );
 
     const inputs = {
-      prompt: "Change to a lion",
+      prompt: "add mustach and sombrero to robot",
       image: [...new Uint8Array(await exampleInputImage.arrayBuffer())],
     };
 
