@@ -1,0 +1,3 @@
+name = "worker-test"
+main = "index.ts"
+compatibility_date = "2025-02-28"
